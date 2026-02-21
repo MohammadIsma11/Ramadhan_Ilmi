@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Day 3 Completed | For Ilmi ❤️</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Amiri:wght@700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --emerald-deep: #011f1a;
+            --emerald-soft: #064e3b;
+            --gold: #fbbf24;
+            --glass: rgba(255, 255, 255, 0.07);
+        }
+
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+        body {
+            background: radial-gradient(circle at top right, var(--emerald-soft) 0%, var(--emerald-deep) 100%);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            margin: 0;
+            padding: 30px 20px; /* Padding extra agar tidak mepet di Infinix */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            height: 100dvh;
+            color: white;
+            overflow: hidden;
+        }
+
+        .bg-glow {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            background: var(--gold);
+            filter: blur(140px);
+            opacity: 0.1;
+            top: 20%;
+            z-index: 1;
+        }
+
+        .main-card {
+            background: var(--glass);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(251, 191, 36, 0.25);
+            border-radius: 40px;
+            padding: 45px 25px;
+            width: 100%;
+            max-width: 360px;
+            max-height: 85vh; /* Menjaga agar tidak mencekik layar */
+            overflow-y: auto;
+            text-align: center;
+            box-shadow: 0 30px 70px rgba(0,0,0,0.5);
+            position: relative;
+            z-index: 10;
+            animation: cardFadeScale 1s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .main-card::-webkit-scrollbar { display: none; }
+
+        @keyframes cardFadeScale {
+            from { opacity: 0; transform: scale(0.9) translateY(30px); }
+            to { opacity: 1; transform: scale(1) translateY(0); }
+        }
+
+        .pill-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--gold);
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-size: 0.7rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: 1px solid rgba(251, 191, 36, 0.4);
+            margin-bottom: 25px;
+        }
+
+        .icon-floating {
+            font-size: 65px;
+            margin-bottom: 10px;
+            display: inline-block;
+            filter: drop-shadow(0 0 15px rgba(251, 191, 36, 0.5));
+            animation: lanternFloat 4s ease-in-out infinite;
+        }
+
+        @keyframes lanternFloat {
+            0%, 100% { transform: translateY(0) rotate(-5deg); }
+            50% { transform: translateY(-15px) rotate(5deg); }
+        }
+
+        h1 {
+            font-family: 'Amiri', serif;
+            color: var(--gold);
+            font-size: 2.3rem;
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .personal-note {
+            font-family: 'Caveat', cursive;
+            font-size: 1.6rem;
+            color: #fff;
+            margin-top: 8px;
+        }
+
+        .divider-gold {
+            width: 40px;
+            height: 3px;
+            background: var(--gold);
+            margin: 25px auto;
+            border-radius: 2px;
+            box-shadow: 0 0 10px var(--gold);
+        }
+
+        .message-text {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.85);
+            font-weight: 500;
+        }
+
+        .highlight {
+            color: var(--gold);
+            font-weight: 800;
+        }
+
+        .heart-trail {
+            margin-top: 30px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            opacity: 0.8;
+        }
+
+        .footer-text {
+            margin-top: 40px;
+            font-size: 0.6rem;
+            font-weight: 800;
+            color: var(--gold);
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <div class="main-card">
+        <div class="pill-badge">Day 3 • Completed</div>
+        
+        <div class="icon-floating">🏮</div>
+        
+        <h1>Tiga Hari Luar Biasa!</h1>
+        <div class="personal-note">Kamu keren banget, sayang...</div>
+        
+        <div class="divider-gold"></div>
+
+        <div class="message-text">
+            Alhamdulillah, <span class="highlight">Ilmi</span> sudah berhasil melewati hari ketiga puasa! 
+            <br><br>
+            Tahu nggak? Liat kamu tetap semangat ibadah meskipun mungkin rasa lemas mulai terasa, bikin Ismail makin kagum. 
+            <br><br>
+            Istirahat yang cukup ya bidadariku. Semoga setiap lapar dan dahagamu hari ini digantikan dengan berkah yang melimpah. 
+        </div>
+        
+        <div class="heart-trail">
+            ✨ ❤️ ✨
+        </div>
+        
+        <div class="footer-text">ISMI Smart Digital</div>
+    </div>
+
+    <script>
+        window.onload = () => {
+            const count = 150;
+            const defaults = { origin: { y: 0.8 }, colors: ['#fbbf24', '#ffffff'] };
+
+            function fire(particleRatio, opts) {
+                confetti({ ...defaults, ...opts, particleCount: Math.floor(count * particleRatio) });
+            }
+
+            fire(0.25, { spread: 26, startVelocity: 55 });
+            fire(0.2, { spread: 60 });
+            fire(0.35, { spread: 100, decay: 0.91, scalar: 0.8 });
+            fire(0.1, { spread: 120, startVelocity: 25, decay: 0.92, scalar: 1.2 });
+        };
+    </script>
+</body>
+</html>
