@@ -1,53 +1,46 @@
-# 🌙 Ramadhan Ilmi: Daily Achievement Web App
+# Ramadhan Ilmi: Daily Achievement Web App
 
-![GitHub stars](https://img.shields.io/github/stars/MohammadIsma11/Ramadhan_Ilmi?style=for-the-badge&color=fbbf24)
-![GitHub last commit](https://img.shields.io/github/last-commit/MohammadIsma11/Ramadhan_Ilmi?style=for-the-badge&color=064e3b)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
-**Ramadhan Ilmi** adalah proyek *web-based personal greeting* yang dirancang untuk menemani perjalanan Ramadan selama 30 hari penuh. Proyek ini menggabungkan estetika **Glassmorphism UI** dengan **Interactive Animation** sebagai bentuk apresiasi harian untuk pasangan/orang tersayang.
+Ramadhan Ilmi adalah sebuah proyek aplikasi web personal yang dirancang khusus untuk menemani dan mengapresiasi perjalanan ibadah selama 30 hari penuh di bulan suci Ramadan. Proyek ini bukan sekadar ucapan digital biasa, melainkan sebuah sistem apresiasi harian yang menggabungkan teknologi web modern dengan sentuhan emosional yang mendalam.
 
 ---
 
-## ✨ Fitur Unggulan
+## Tentang Proyek Ini
 
-* **📅 30 Days Journey**: Setiap hari memiliki halaman unik (`hari_1.html` - `hari_30.html`) dengan desain yang berevolusi tiap minggu.
-* **💎 Premium Glassmorphism**: Desain mewah dengan teknik *backdrop-filter* dan gradasi warna (Emerald Gold untuk Week 1 & Midnight Blue untuk Week 2).
-* **📱 Mobile-First Design**: Dioptimasi khusus untuk layar smartphone (presisi untuk HP Infinix, Samsung, iPhone, dll).
-* **🎊 Interactive Celebration**: Animasi kembang api otomatis menggunakan `canvas-confetti` saat halaman dibuka.
-* **📜 Emotional Typography**: Perpaduan font *Amiri* untuk nuansa Islami dan *Caveat* untuk sentuhan personal.
+Proyek ini dibuat sebagai bentuk dukungan dan apresiasi kepada pasangan dalam menjalankan ibadah puasa. Tujuan utamanya adalah untuk menciptakan momen kebahagiaan kecil setiap harinya melalui antarmuka digital yang interaktif dan mewah.
+
+Setiap halaman dirancang agar pengguna merasa setiap hari yang berhasil dilalui adalah sebuah pencapaian (achievement) yang layak dirayakan.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Konsep Desain & Estetika
 
-* **HTML5 & CSS3**: Custom Flexbox & Grid dengan variabel CSS untuk manajemen tema.
-* **JavaScript (Vanilla)**: Manipulasi DOM untuk logika perayaan dan animasi.
-* **GitHub Pages**: Sebagai platform *hosting* untuk akses link yang cepat dan mudah.
+Untuk menjaga agar pengalaman pengguna tetap segar dan tidak membosankan selama sebulan penuh, proyek ini menerapkan konsep **Evolusi Tema Mingguan**:
 
----
-
-## 🚀 Cara Menggunakan (Untuk Pengembang Lain)
-
-Jika Anda ingin menggunakan repositori ini untuk memberikan kejutan kepada orang tersayang, silakan ikuti langkah berikut:
-
-1.  **Fork** repository ini ke akun GitHub Anda.
-2.  **Kustomisasi Pesan**:
-    * Cari bagian `<div class="emotional-text">` atau `<div class="message-box">` di setiap file HTML.
-    * Ubah nama "Ilmi" menjadi nama orang tersayang Anda.
-3.  **Deployment**:
-    * Masuk ke menu **Settings** > **Pages** di repository Anda.
-    * Pada bagian Build and deployment, pilih Branch **main** dan folder **/(root)**.
-    * Website Anda akan aktif dalam hitungan menit di link `https://username.github.io/Ramadhan_Ilmi/`.
+* **Minggu Pertama (The Beginning):** Menggunakan tema **Emerald Gold**. Perpaduan warna hijau botol yang islami dengan aksen emas mewah, melambangkan awal perjalanan yang suci dan penuh semangat.
+* **Minggu Kedua (Consistency):** Bertransformasi menjadi tema **Midnight Blue & Royal Gold**. Menggambarkan ketenangan langit malam Ramadan minggu kedua yang lebih dalam dan khusyuk.
+* **Minggu Berikutnya:** Desain akan terus berevolusi secara visual untuk mencerminkan progres perjalanan spiritual yang semakin matang hingga hari kemenangan tiba.
 
 ---
 
-## 📂 Struktur Repositori
+## Fitur Unggulan
 
-```text
-.
-├── index.html          # Gerbang utama (Verification System)
-├── menu.html           # Dashboard target Ramadan
-├── hari_1.html         # Ucapan Milestone Hari ke-1 (Week 1 Theme)
-├── hari_7.html         # Penutup Minggu Pertama (Milestone 1 Week)
-├── hari_8.html         # Awal Minggu Kedua (Midnight Blue Theme)
-└── README.md           # Dokumentasi Proyek
+* **Glassmorphism UI:** Antarmuka transparan dengan efek blur yang modern dan elegan.
+* **Mobile Precision:** Dioptimasi secara khusus untuk perangkat smartphone, memastikan tampilan presisi dan tidak terpotong pada layar HP dengan rasio panjang.
+* **Interactive Achievement:** Setiap harinya dilengkapi dengan animasi perayaan (confetti) dan badge piala otomatis saat halaman dibuka.
+* **Emotional Typography:** Penggunaan tipografi yang menggabungkan seni kaligrafi dengan gaya tulisan tangan yang personal.
+
+---
+
+## Penggunaan & Modifikasi
+
+Proyek ini bersifat terbuka untuk siapa saja yang ingin memberikan kejutan serupa kepada orang tersayang. Anda dapat memodifikasi setiap bagian teks, pesan emosional, dan nama di dalam kodingan sesuai dengan kebutuhan personal Anda.
+
+---
+
+## Lisensi
+
+Proyek ini berada di bawah lisensi MIT. Anda bebas untuk menggunakan, menyalin, dan memodifikasi kodingan ini untuk tujuan edukasi atau penggunaan pribadi, dengan tetap menghargai karya asli melalui pencantuman atribusi pembuatnya.
+
+---
+
+**Dibuat dengan tulus oleh Ismail - ISMI Smart Digital 2026**
