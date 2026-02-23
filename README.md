@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://img.icons8.com/fluent-secondary/120/000000/mosque.png" width="120" alt="Logo Ramadhan Ilmi">
   <h1 align="center">Ramadhan Ilmi: Daily Achievement Web App</h1>
 </p>
 
