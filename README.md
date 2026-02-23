@@ -1,4 +1,7 @@
-# Ramadhan Ilmi: Daily Achievement Web App
+<p align="center">
+  <img src="https://img.icons8.com/fluent-secondary/120/000000/mosque.png" width="120" alt="Logo Ramadhan Ilmi">
+  <h1 align="center">Ramadhan Ilmi: Daily Achievement Web App</h1>
+</p>
 
 Ramadhan Ilmi adalah sebuah proyek aplikasi web personal yang dirancang khusus untuk menemani dan mengapresiasi perjalanan ibadah selama 30 hari penuh di bulan suci Ramadan. Proyek ini bukan sekadar ucapan digital biasa, melainkan sebuah sistem apresiasi harian yang menggabungkan teknologi web modern dengan sentuhan emosional yang mendalam.
 
@@ -8,7 +11,7 @@ Ramadhan Ilmi adalah sebuah proyek aplikasi web personal yang dirancang khusus u
 
 Proyek ini dibuat sebagai bentuk dukungan dan apresiasi kepada pasangan dalam menjalankan ibadah puasa. Tujuan utamanya adalah untuk menciptakan momen kebahagiaan kecil setiap harinya melalui antarmuka digital yang interaktif dan mewah.
 
-Setiap halaman dirancang agar pengguna merasa setiap hari yang berhasil dilalui adalah sebuah pencapaian (achievement) yang layak dirayakan.
+Setiap halaman dirancang agar pengguna merasa setiap hari yang berhasil dilalui adalah sebuah pencapaian (**achievement**) yang layak dirayakan.
 
 ---
 
@@ -25,8 +28,8 @@ Untuk menjaga agar pengalaman pengguna tetap segar dan tidak membosankan selama 
 ## Fitur Unggulan
 
 * **Glassmorphism UI:** Antarmuka transparan dengan efek blur yang modern dan elegan.
-* **Mobile Precision:** Dioptimasi secara khusus untuk perangkat smartphone, memastikan tampilan presisi dan tidak terpotong pada layar HP dengan rasio panjang.
-* **Interactive Achievement:** Setiap harinya dilengkapi dengan animasi perayaan (confetti) dan badge piala otomatis saat halaman dibuka.
+* **Mobile Precision:** Dioptimasi secara khusus untuk perangkat smartphone, memastikan tampilan presisi dan tidak terpotong pada layar HP dengan rasio panjang (seperti Infinix, Samsung, dll).
+* **Interactive Achievement:** Setiap harinya dilengkapi dengan animasi perayaan (*confetti*) dan badge piala otomatis saat halaman dibuka.
 * **Emotional Typography:** Penggunaan tipografi yang menggabungkan seni kaligrafi dengan gaya tulisan tangan yang personal.
 
 ---
@@ -39,8 +42,10 @@ Proyek ini bersifat terbuka untuk siapa saja yang ingin memberikan kejutan serup
 
 ## Lisensi
 
-Proyek ini berada di bawah lisensi MIT. Anda bebas untuk menggunakan, menyalin, dan memodifikasi kodingan ini untuk tujuan edukasi atau penggunaan pribadi, dengan tetap menghargai karya asli melalui pencantuman atribusi pembuatnya.
+Proyek ini berada di bawah lisensi **MIT**. Anda bebas untuk menggunakan, menyalin, dan memodifikasi kodingan ini untuk tujuan edukasi atau penggunaan pribadi, dengan tetap menghargai karya asli melalui pencantuman atribusi pembuatnya.
 
 ---
 
-**Dibuat dengan tulus oleh Ismail - ISMI Smart Digital 2026**
+<p align="center">
+  <strong>Dibuat dengan tulus oleh Ismail - ISMI Smart Digital 2026</strong>
+</p>
