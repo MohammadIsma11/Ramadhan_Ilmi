@@ -46,5 +46,5 @@ Proyek ini berada di bawah lisensi **MIT**. Anda bebas untuk menggunakan, menyal
 ---
 
 <p align="center">
-  <strong>Dibuat dengan tulus oleh Ismail - ISMI Smart Digital 2026</strong>
+  <strong>Dibuat dengan oleh Ismail - @ISMI Smart Digital 2026</strong>
 </p>
