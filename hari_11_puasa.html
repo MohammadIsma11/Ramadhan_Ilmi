@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Day 11 | Waktunya Istirahat Ilmi ❤️</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Amiri:wght@700&family=Caveat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --midnight-deep: #020617;
+        --midnight-light: #1e1b4b;
+        --royal-gold: #fbbf24;
+        --glass-blue: rgba(30, 41, 59, 0.5);
+      }
+
+      * {
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      body {
+        background: linear-gradient(
+          180deg,
+          var(--midnight-deep) 0%,
+          var(--midnight-light) 100%
+        );
+        font-family: "Plus Jakarta Sans", sans-serif;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        height: 100dvh;
+        color: white;
+        overflow: hidden;
+      }
+
+      .star {
+        position: absolute;
+        background: white;
+        border-radius: 50%;
+        opacity: 0.5;
+        animation: twinkle var(--duration) infinite;
+      }
+
+      @keyframes twinkle {
+        0%,
+        100% {
+          opacity: 0.3;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1.2);
+        }
+      }
+
+      .main-card {
+        background: var(--glass-blue);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(251, 191, 36, 0.3);
+        border-radius: 40px;
+        padding: 40px 25px;
+        width: 100%;
+        max-width: 360px;
+        max-height: 85vh;
+        overflow-y: auto;
+        text-align: center;
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+        position: relative;
+        z-index: 10;
+        animation: fadeIn 1s ease-out;
+      }
+
+      .main-card::-webkit-scrollbar {
+        display: none;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .week-indicator {
+        background: rgba(251, 191, 36, 0.1);
+        color: var(--royal-gold);
+        padding: 6px 16px;
+        border-radius: 100px;
+        font-size: 0.7rem;
+        font-weight: 800;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+        display: inline-block;
+        border: 1px solid var(--royal-gold);
+      }
+
+      .icon-main {
+        font-size: 65px;
+        margin: 15px 0;
+        display: inline-block;
+        filter: drop-shadow(0 0 15px var(--royal-gold));
+        animation: bounceIcon 2s infinite ease-in-out;
+      }
+
+      @keyframes bounceIcon {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+
+      h1 {
+        font-family: "Amiri", serif;
+        color: var(--royal-gold);
+        font-size: 2.2rem;
+        margin: 10px 0;
+        line-height: 1.2;
+      }
+
+      .handwritten {
+        font-family: "Caveat", cursive;
+        font-size: 1.8rem;
+        color: #f8fafc;
+        margin-bottom: 15px;
+      }
+
+      .message-box {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        color: rgba(248, 250, 252, 0.9);
+        font-weight: 500;
+      }
+
+      .gold-text {
+        color: var(--royal-gold);
+        font-weight: 800;
+      }
+
+      .footer {
+        margin-top: 40px;
+        font-size: 0.65rem;
+        font-weight: 800;
+        color: var(--royal-gold);
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="star-container"></div>
+
+    <div class="main-card">
+      <div class="week-indicator">WEEK 2 • REST & RECOVERY</div>
+
+      <div class="icon-main">🌸🧘‍♀️</div>
+
+      <h1>Day 11: Istirahat Dulu</h1>
+      <div class="handwritten">Alhamdulillah, tamunya datang...</div>
+
+      <div class="message-box">
+        Ternyata sore ini <span class="gold-text">Ilmi</span> dapat 'tamu' ya.
+        Gak apa-apa ya sayang, berarti Allah kasih waktu buat Ilmi istirahat
+        dulu. <br /><br />
+        Jangan sedih karena gak bisa puasa. Menjalankan udzur juga bagian dari
+        ketaatan kok. Sekarang fokus jaga kesehatan, jangan capek-capek, dan
+        makan yang enak ya bidadariku.
+        <br /><br />
+        <span style="font-style: italic"
+          >"Istirahatlah dengan tenang, pahala sabarmu tetap mengalir
+          buatmu."</span
+        >
+      </div>
+
+      <div style="margin-top: 30px; font-size: 24px">🍫 ☕ 🧸</div>
+
+      <div class="footer">ISMI Smart Digital</div>
+    </div>
+
+    <script>
+      const container = document.getElementById("star-container");
+      for (let i = 0; i < 60; i++) {
+        const star = document.createElement("div");
+        star.className = "star";
+        const size = Math.random() * 2.5;
+        star.style.width = size + "px";
+        star.style.height = size + "px";
+        star.style.top = Math.random() * 100 + "%";
+        star.style.left = Math.random() * 100 + "%";
+        star.style.setProperty("--duration", Math.random() * 3 + 2 + "s");
+        container.appendChild(star);
+      }
+
+      window.onload = () => {
+        // Konfeti warna soft pink dan gold
+        confetti({
+          particleCount: 120,
+          spread: 70,
+          origin: { y: 0.7 },
+          colors: ["#fbbf24", "#ffffff", "#fda4af"],
+        });
+      };
+    </script>
+  </body>
+</html>
